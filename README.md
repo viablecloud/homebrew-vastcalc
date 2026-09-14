@@ -75,5 +75,9 @@ supported via a single universal binary.
 
 ## Version history
 
+- **v0.1.1** — fixes catalog-data resolution for a real `brew install` +
+  bare-command-name invocation (v0.1.0's fix for this used `argv[0]`,
+  which isn't a reliable path when a shell resolves a command via
+  `$PATH` — the exact way this tool is normally run once installed).
 - **v0.1.0** — first release: Design Advisor, EBox Sizing, C&D Sizing,
   Rack Diagram, and Glossary screens, plus `vastcalc_cli`.

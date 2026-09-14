@@ -1,10 +1,10 @@
 class Vastcalc < Formula
   desc "VAST storage sizing calculator (CLI + TUI), ported from a VAST NCP sizing spreadsheet"
   homepage "https://github.com/viablecloud/homebrew-vastcalc"
-  url "https://github.com/viablecloud/homebrew-vastcalc/releases/download/v0.1.0/vastcalc-0.1.0-macos-universal.tar.gz"
-  sha256 "d2a5ba0f268ae7603022825e44b2d3b6e3ec4653a3621ea8e0127456b8612711"
+  url "https://github.com/viablecloud/homebrew-vastcalc/releases/download/v0.1.1/vastcalc-0.1.1-macos-universal.tar.gz"
+  sha256 "a59bd189d7dbf38ba2ebd9e3e08247874dc7c38703f75ce332245a89923fb07a"
   license :cannot_represent
-  version "0.1.0"
+  version "0.1.1"
 
   # Precompiled universal (arm64 + x86_64) binaries — this tap ships no
   # source and builds nothing. catalog.json MUST be installed as a sibling
